@@ -1,0 +1,62 @@
+
+
+
+
+
+body{
+  background-color: #ccc;
+}
+
+table{
+  border: 4px solid #080;
+  margin: 20px auto;
+  width: 40%;
+}
+
+table td{
+  border: 2px solid #080;
+  padding: 12px;
+  background-color: #0f0;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  font-weight: bold;
+}
+
+table td:hover{
+  background-color: #0c0;
+  color: #fff;
+}
+
+.tirage{
+  display: flex;
+  width: 50%;
+  margin: 20px auto;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.boutons{
+  display: flex;
+  justify-content: space-around;
+}
+
+button{
+  margin: 16px 8px;
+}
+.selected{
+  background-color: green;
+  color: white;
+}
+
+.colorWin{
+  color: red;
+  font-weight: bold;
+  background-color: yellow;
+}
+
+.colorWin2{
+  color: red;
+  font-weight: bold;
+}
